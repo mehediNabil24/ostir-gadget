@@ -2,18 +2,20 @@ import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import Gadget from './Gadget';
 import Sidebar from './Sidebar'; // Assuming you have a Sidebar component
+import Gadgetss from '../assets/gadgets.json'
 
 const Gadgets = () => {
-    const [gadgets, setGadgets] = useState([]);
+    const [gadgets, setGadgets] = useState(Gadgetss);
     const [filteredGadgets, setFilteredGadgets] = useState([]);
     const { category } = useParams();
+    
 
     // Fetch all gadgets from 'gadgets.json'
     useEffect(() => {
-        fetch('/public/gadgets.json')
-            .then(res => res.json())
-            .then(data => setGadgets(data))
-            .catch(error => console.error("Error fetching gadgets:", error));
+        // fetch('/public/gadgets.json')
+            // .then(res => res.json())
+            // .then(data => setGadgets(data))
+            // .catch(error => console.error("Error fetching gadgets:", error));
     }, []);
 
     // Filter gadgets based on category from URL

@@ -2,6 +2,7 @@ import { StrictMode } from 'react';
 import { createRoot } from 'react-dom/client';
 import './index.css';
 
+
 import {
   createBrowserRouter,
   RouterProvider,
@@ -12,6 +13,7 @@ import Error from './Components/Error';
 import GadgetDetails from './Components/GadgetDetails';
 import Dashboard from './Components/DashBoard';
 import Gadgets from './Components/Gadgets'; // Make sure Gadgets is imported
+import Gadgetss from './assets/gadgets.json'
 
 const router = createBrowserRouter([
   {
@@ -27,11 +29,12 @@ const router = createBrowserRouter([
         path: '/gadget/:product_id',
         element: <GadgetDetails></GadgetDetails>,
         loader: async ({ params }) => {
-          const response = await fetch('/gadgets.json');
-          const data = await response.json();
+          // const response = await fetch('gadgets.json');
+          // const data = await response.json();
+          
 
           // Return data and product ID to GadgetDetails
-          return { data: Array.isArray(data) ? data : [], productId: params.product_id };
+          return { data: Array.isArray(Gadgetss) ? Gadgetss : [], productId: params.product_id };
         },
       },
       {
