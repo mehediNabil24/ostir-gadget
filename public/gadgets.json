@@ -1,0 +1,172 @@
+[
+    {
+        "product_id": "L1001",
+        "product_title": "UltraBook Pro 15",
+        "product_image": "https://i.ibb.co.com/K2N7Fsh/lap-1.jpg",
+        "category": "Laptop",
+        "price": 1200.00,
+        "description": "A powerful ultrabook with a 15-inch display and a sleek design for professionals.",
+        "Specification": [
+            "15-inch Full HD display",
+            "Intel i7 processor",
+            "16GB RAM",
+            "512GB SSD",
+            "Battery life up to 10 hours"
+        ],
+        "availability": true,
+        "rating": 4.8
+    },
+    {
+        "product_id": "L1002",
+        "product_title": "Gaming Beast 17",
+        "product_image": "https://i.ibb.co.com/jy5xf1j/lap-2.jpg",
+        "category": "Laptop",
+        "price": 1800.00,
+        "description": "High-performance gaming laptop with advanced cooling and a 17-inch display.",
+        "Specification": [
+            "17-inch QHD display",
+            "AMD Ryzen 9 processor",
+            "32GB RAM",
+            "1TB SSD + 1TB HDD",
+            "RGB keyboard"
+        ],
+        "availability": true,
+        "rating": 4.7
+    },
+    {
+        "product_id": "L1003",
+        "product_title": "Student Laptop 14",
+        "product_image": "https://i.ibb.co.com/bPG1TqX/Lap-3.jpg",
+        "category": "Laptop",
+        "price": 750.00,
+        "description": "Affordable laptop for students with great battery life and a lightweight design.",
+        "Specification": [
+            "14-inch HD display",
+            "Intel i5 processor",
+            "8GB RAM",
+            "256GB SSD",
+            "Battery life up to 12 hours"
+        ],
+        "availability": true,
+        "rating": 4.3
+    },
+    {
+        "product_id": "L1004",
+        "product_title": "Creative Studio 16",
+        "product_image": "https://i.ibb.co.com/1LR84qS/lap-4.jpg",
+        "category": "Laptop",
+        "price": 1400.00,
+        "description": "Laptop optimized for content creators with high-resolution display and graphic support.",
+        "Specification": [
+            "16-inch 4K display",
+            "Intel i9 processor",
+            "16GB RAM",
+            "512GB SSD + 2TB HDD",
+            "NVIDIA GTX 1650"
+        ],
+        "availability": false,
+        "rating": 4.6
+    },
+    {
+        "product_id": "L1005",
+        "product_title": "Business Pro 13",
+        "product_image": "https://i.ibb.co.com/VDY1sFk/lap-5.jpg",
+        "category": "Laptop",
+        "price": 950.00,
+        "description": "Compact and powerful laptop designed for business professionals.",
+        "Specification": [
+            "13-inch Full HD display",
+            "Intel i5 processor",
+            "8GB RAM",
+            "256GB SSD",
+            "Fingerprint reader"
+        ],
+        "availability": true,
+        "rating": 4.5
+    },
+    {
+        "product_id": "L1006",
+        "product_title": "Laptop Lite 13",
+        "product_image": "https://i.ibb.co.com/ZdJBmyQ/lap-6.jpg",
+        "category": "Laptop",
+        "price": 600.00,
+        "description": "Lightweight laptop with essential features for everyday use.",
+        "Specification": [
+            "13-inch HD display",
+            "Intel i3 processor",
+            "4GB RAM",
+            "128GB SSD",
+            "Battery life up to 8 hours"
+        ],
+        "availability": true,
+        "rating": 4.2
+    },
+    {
+        "product_id": "P2001",
+        "product_title": "Smartphone Max X",
+        "product_image": "https://i.ibb.co.com/1dSTnXh/p-1.jpg",
+        "category": "Phones",
+        "price": 999.00,
+        "description": "Flagship smartphone with high-end camera and performance.",
+        "Specification": [
+            "6.7-inch OLED display",
+            "256GB storage",
+            "Triple rear camera setup",
+            "5G connectivity",
+            "Fast charging support"
+        ],
+        "availability": true,
+        "rating": 4.8
+    },
+    {
+        "product_id": "P2002",
+        "product_title": "Budget Phone Z",
+        "product_image": "https://i.ibb.co.com/P4HyNg8/p-2.jpg",
+        "category": "Phones",
+        "price": 199.99,
+        "description": "Affordable smartphone with essential features and great battery life.",
+        "Specification": [
+            "6.1-inch HD display",
+            "64GB storage",
+            "12MP rear camera",
+            "4G LTE",
+            "Battery life up to 24 hours"
+        ],
+        "availability": true,
+        "rating": 4.1
+    },
+    {
+        "product_id": "S3001",
+        "product_title": "Smart Watch Fit Plus",
+        "product_image": "https://i.ibb.co.com/FHDm0Cs/s-2.jpg",
+        "category": "Smart Watches",
+        "price": 299.99,
+        "description": "Fitness-focused smartwatch with health monitoring and GPS.",
+        "Specification": [
+            "Heart rate monitor",
+            "Sleep tracking",
+            "Built-in GPS",
+            "Water resistant",
+            "Up to 5 days battery life"
+        ],
+        "availability": true,
+        "rating": 4.4
+    },
+    {
+        "product_id": "S3002",
+        "product_title": "Classic Smart Watch",
+        "product_image": "https://i.ibb.co.com/z4wMLRM/s-1.jpg",
+        "category": "Smart Watches",
+        "price": 199.99,
+        "description": "Stylish smartwatch with essential features and customizable faces.",
+        "Specification": [
+            "Full-color touchscreen",
+            "Bluetooth connectivity",
+            "Customizable watch faces",
+            "Activity tracking",
+            "Up to 7 days battery life"
+        ],
+        "availability": false,
+        "rating": 4.2
+    }
+]
